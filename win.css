@@ -1,0 +1,99 @@
+.list{
+    text-align: left;
+}
+
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1,.pimg2,.pimg3,.pimg4,.pimg5,.pimg6,.pimg7,.pimg8{
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /*
+    fixed =parallex
+    scroll=normal
+    */
+
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url("image/win1.jpeg");
+    min-height: 800px;
+}
+
+.pimg2{
+    background-image: url("image/win2.jpeg");
+    min-height: 600px;
+}
+
+.pimg3{
+    background-image: url("image/win3.jpeg");
+    min-height: 600px;
+}
+
+.pimg4{
+    background-image: url("image/win4.jpg");
+    min-height: 600px;
+}
+
+.pimg5{
+    background-image: url("image/win5.jpg");
+    min-height: 600px;
+}
+
+.pimg6{
+    background-image: url("image/win6.jpg");
+    min-height: 600px;
+}
+
+.pimg7{
+    background-image: url("image/macvswin.jpeg");
+    min-height: 700px;
+}
+
+.pimg8{
+    background-image: url("image/win8.jpeg");
+    min-height: 800px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-dark{
+    background-color: rgba(27, 26, 26, 0.969);
+    color: #ddd;
+    font-size: 20px;
+}
+
+.ptext{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color:black;
+    font-size: 40px;
+}
+
+.ptext .border{
+    background-color: black;
+    color: #ddd;
+    padding: 15px;
+}
+
+.ptext .border .trans{
+    background-color: transparent;
+    color:transparent
+}

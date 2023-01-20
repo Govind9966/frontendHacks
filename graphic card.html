@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>
+             GRAPHIC CARDS
+        </title>
+        <link rel="stylesheet" href="graphic card.css">
+        <link rel="icon" href="image/LOGO.png">
+    </head>
+<body>
+  <nav>
+    <div class="dropdown">
+    <ul>
+        <li class="active"><a href="24th project.html">HOME</a></li>
+    </ul>
+    </div>
+  </nav>
+    <h1>
+        GRAPHIC CARDS.. 
+    </h1>
+    <h2>
+        A graphics card is an expansion card which generates a feed of output images to a display device (such as a computer monitor). Frequently, these are advertised as discrete or dedicated graphics cards, emphasizing the distinction between these and integrated graphics.Most graphics cards are not limited to simple display output. Their integrated graphics processor can perform additional processing, removing this task from the central processor of the computer.[1] For example, Nvidia and AMD (previously ATI) produced cards that render the graphics pipelines OpenGL and DirectX on the hardware level.
+    </h2>
+    <div class="image">
+        <image src="image/rtxx.jpg" alt="Workplace" usemap="#workmap" height="300" width="480" class="center"></image>
+        <map name="workmap">
+            <area shape="rect" coords="64,203,567,441" alt="RTX" href="AMD.html">
+            <area shape="rect" coords="683,164,1153,487" alt="GTX" href="intelcpu.html">
+        </map>
+        </div>
+        <br>
+        <br>
+        <br>
+    <div class="tab">
+        <a href="RTX.html"><button class="tablinks" onclick="openCity(event, 'RTX')">RTX</button></a>
+        <a href="GTX.html"><button class="tablinks" onclick="openCity(event, 'GTX')">GTX</button></a>
+      </div>
+      <div id="AMD" class="tabcontent">
+        <a href="#" target="_blank"></a>
+        
+      </div>
+      
+      <div id="INTEL" class="tabcontent">
+        <a href="intelcpu.html" target="_blank"> <h3>RTX</h3>
+        </a>
+      </div>
+      <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+    <h2><a href="RTX.html">WHAT IS RTX?</a></h2><pre style="font-family: Neo®️ Sans;"><H3>
+        RTX stands for Ray Tracing Texel eXtreme and is also a variant under GeForce. The RTX cards were 
+        specially designed to support real-time ray tracing which made the video looked more beautiful. 
+        They were first announced in 2018 and uses Turing architecture. These RTX cards include RTX 2060,
+        RTX 2070, RTX 2080,RTX 2080Ti, and Super counterparts of 2060 and 2070. These cards support the 
+        DXR extension in Microsoft’s DirectX1 and also DLSS (Deep Learning Super Sampling).</H3></pre>
+<h2><a href="GTX.html">WHAT IS GTX?</a></h2><pre style="font-family:Neo®️ Sans"><h3>
+        GTX stands for Giga Texel Shader eXtreme and is a variant under the brand GeForce owned by Nvidia.
+        They were first introduced in 2008 with series 200, codenamed Tesla. The first product in this 
+        series was GTX 260 and more expensive GTX 280. The introduction of these cards also affected the
+        naming scheme and from the release of these cards onwards, Nvidia GPUs used a naming scheme that
+        has GTX/GT as a prefix followed by their model number.The latest GTX series 16, consist of GTX 1650,
+        GTX 1660, GTX 1660Ti, and its Super counterparts. These are based on Turing architecture and were
+        introduced in 2019.
+    </pre>
+</body>
+</html>

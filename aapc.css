@@ -1,0 +1,21 @@
+body{
+    background-image: url(image/allaboutpcback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 70%;
+    backdrop-filter: blur(50px);
+}
+h1{
+    color: white;
+}
+h2{
+    color: rgb(0, 0, 0);
+
+}
+.vid{
+    position: absolute;
+    top: 550%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}

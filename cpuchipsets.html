@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>
+             CPU CHIPSETS
+        </title>
+        <link rel="stylesheet" href="cpuchipsets.css">
+        <link rel="icon" href="image/LOGO.png">
+    </head>
+<body>
+  <nav>
+    <div class="dropdown">
+    <ul>
+        <li class="active"><a href="24th project.html">HOME</a></li>
+    </ul>
+    </div>
+  </nav>
+    <h1>
+        CENTRAL PROCESSING UNIT.. (CPU) 
+    </h1>
+    <h2>
+    A central processing unit (CPU), also called a central processor, 
+    main processor or just processor, is the electronic circuitry that executes instructions comprising a computer program. <br>The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in the program.<br> This contrasts with external components such as main memory and I/O circuitry, and specialized processors such as graphics processing units (GPUs).
+    </h2>
+    <div class="image">
+        <image src="image/intel-amd-cross-licensing-gpu-technology.jpg" alt="Workplace" usemap="#workmap" height="300" width="480" class="center"></image>
+        <map name="workmap">
+            <area shape="rect" coords="64,203,567,441" alt="AMD" href="AMD.html">
+            <area shape="rect" coords="683,164,1153,487" alt="INTEL" href="intelcpu.html">
+        </map>
+        </div>
+        <br>
+        <br>
+        <br>
+    <div class="tab">
+        <a href="AMD.html"><button class="tablinks" onclick="openCity(event, 'AMD')">AMD</button></a>
+        <a href="intelcpu.html"><button class="tablinks" onclick="openCity(event, 'INTEL')">INTEL</button></a>
+      </div>
+      <div id="AMD" class="tabcontent">
+        <a href="AMD.html" target="_blank"></a>
+        
+      </div>
+      
+      <div id="INTEL" class="tabcontent">
+        <a href="intelcpu.html" target="_blank"> <h3>INTEL</h3>
+        </a>
+      </div>
+      <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+    <h2><a href="AMD.html">AMD</a></h2><pre style="font-family: Neo® Sans;"><H3>
+    AMD is a company making one of the fastest cpu's they have their latest relase as the ryzen 9 series.
+    Cinebench R20 single core 1684 which was record breaking.
+    
+    More about AMD 
+    
+    Advanced Micro Devices, Inc. (AMD) is an American multinational company based in Santa Clara,California.
+    that develops computer processors and related technologies for business and consumer markets.
+    While it initially manufactured its own processors, the company later outsourced its manufacturing.</H3></pre>
+<h2><a href="intelcpu.html">INTEL</a></h2><pre style="font-family:Neo® Sans"><h3>
+    INTEL has banged the cpu market several times with their products like the alder lake the 12th gen.
+    Cinebench R20 single core 1697 that broke the record of AMD'S ryzen 9 5950HX 
+    
+    More about INTEL
+    
+    Intel Corporation is an American multinational corporation company headquartered in Santa Clara, California.
+    It is the world's largest chip manufacturer by revenue, and is the developer of the x86 series of microprocessors,
+    the processors found in most personal computers (PCs). Incorporated in Delaware. </h3>
+    </pre>
+</body>
+</html>
